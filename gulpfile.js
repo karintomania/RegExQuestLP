@@ -125,14 +125,6 @@ function watchFiles() {
   gulp.watch("./**/*.html", browserSyncReload);
 }
 
-// copy files to publish folder
-gulp.task('copy', () => {
-    gulp.src('./*.html').pipe(gulp.dest("./publish"));
-    gulp.src('./css/*.css').pipe(gulp.dest("./publish/css"));
-    gulp.src('./js/*.js').pipe(gulp.dest("./publish/js"));
-    gulp.src('./img/**').pipe(gulp.dest("./publish/img"));
-    gulp.src('./vendor/**').pipe(gulp.dest("./publish/vendor"));
-});
 
 
 // Define complex tasks
