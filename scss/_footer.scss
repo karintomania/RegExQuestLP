@@ -1,0 +1,11 @@
+// Styling for the footer
+footer {
+    padding: 20px 0;
+    color: fade-out(white, .7);
+    background-color: $gray-darker;
+    text-align: center;
+    p {
+        font-size: 12px;
+        margin: 0;
+    }
+}
