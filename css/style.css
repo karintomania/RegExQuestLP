@@ -193,24 +193,9 @@ section.download h2 {
   margin-top: 0;
 }
 
-section.download .badges .badge-link {
-  display: block;
-  margin-bottom: 25px;
-}
-
-section.download .badges .badge-link:last-child {
-  margin-bottom: 0;
-}
-
-section.download .badges .badge-link img {
-  height: 60px;
-}
-
-@media (min-width: 768px) {
-  section.download .badges .badge-link {
-    display: inline-block;
-    margin-bottom: 0;
-  }
+section.download .badges img {
+  height: auto;
+  width: 240px;
 }
 
 @media (min-width: 768px) {
