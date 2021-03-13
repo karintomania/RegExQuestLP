@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - RegEx Quest LP v5.0.7 ()
- * Copyright 2013-2020 KarintoMania
+ * Copyright 2013-2021 KarintoMania
  * Licensed under MIT (https://github.com/BlackrockDigital/regex-quest-lp/blob/master/LICENSE)
  */
 
@@ -159,7 +159,8 @@ header.masthead .header-content a {
 }
 
 header.masthead .img-container {
-  max-width: 340px;
+  max-height: 60%;
+  max-width: 60%;
   margin-right: auto;
   margin-left: auto;
 }
